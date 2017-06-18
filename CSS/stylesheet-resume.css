@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+h1 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+h2{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 15px;
+	color: #7D7D7D;
+}
+
+h3 {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 15px;
+	color: #525252;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	color: #525252;
+}
+
+li {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	color: #525252;
+	list-style-type: circle;
+}
+
+th {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15px;
+}
+
+td {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	color: #525252;
+}
+
+a {
+	text-decoration: none;
+	color: #525252;
+}
+
+
+#top{
+	width: 100%;
+	padding-top: 60px;
+}
+
+#top .name{
+	float: left;
+	width: 350px;
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: 200px;
+}
+
+#top .name h2{
+}
+#top .contact{
+	padding-top: 23px;
+	padding-bottom: 7px;
+	float: left;
+	display: inline-block;
+}
+
+#top .contact th {
+	color: #ff9400;
+	text-align: left;
+}
+
+#top .contact td {
+	padding-left: 5px;
+}
+
+#sub {
+	padding-top: 20px;
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#main p{
+	line-height: 15px;
+}
+
+#main li{
+	padding-bottom: 15px;
+}
+
+#main h2 {
+	padding-top: 15px;
+	float: left;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #ff9400;
+	width: 100%;
+}
+#main .section .left {
+	float: left;
+	width: 250px;
+	display: inline-block;
+	margin-bottom: -15px;
+	padding-right: 50px;
+}
+
+#main .section .left p{
+	font-weight: 700;
+}
+
+#main .section .right{
+	float: left;
+	width: 60%;
+	display: inline-block;
+}
+
+#main .section .right .location {
+	font-weight: 700;
+}
+
+.section .right .minor {
+	font-weight: 600;
+}
+
+.section .right .courses {
+	font-weight: 600;
+	color: #ff9400;
+}
